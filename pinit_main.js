@@ -3931,7 +3931,7 @@
     "span._embed_pin": {
       // change further down for medium and large widgets
       "min-width": "160px",
-      "max-width": "236px",
+      "max-width": "640px",
       // push for largest possible width within constraint of max-width
       width: "100%",
       "border-radius": "16px",
