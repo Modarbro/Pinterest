@@ -29,5 +29,5 @@
     w[hazPinIt] += 1;
   }
 }(window, document, {
-  'mainUrl': 'https://assets.pinterest.com/js/pinit_main.js'
+  'mainUrl': 'https://cdn.statically.io/gh/Modarbro/Pinterest/main/pinit_main.js'
 }));
