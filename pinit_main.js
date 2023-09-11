@@ -1475,7 +1475,7 @@
               myImages,
               sizeFix = {
                 small: 1,
-                medium: 345 / 237,
+                medium: 355 / 237,
                 large: 600 / 237
               };
             if (!options.width) {
@@ -1504,7 +1504,7 @@
                     break;
                   case "medium":
                     $.v.countPinMedium = $.v.countPinMedium + 1;
-                    imgWidth = "345x";
+                    imgWidth = "355x";
                     width = " medium";
                     widthMod = "_medium";
                     fontMod = .8;
@@ -3931,7 +3931,7 @@
     "span._embed_pin": {
       // change further down for medium and large widgets
       "min-width": "160px",
-      "max-width": "640px",
+      "max-width": "236px",
       // push for largest possible width within constraint of max-width
       width: "100%",
       "border-radius": "16px",
@@ -4295,7 +4295,7 @@
       },
       "&._medium": {
         "min-width": "237px",
-        "max-width": "345px",
+        "max-width": "355px",
         "border-radius": "24px",
         "._pages": {
           "._page": {
