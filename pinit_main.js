@@ -1475,7 +1475,7 @@
               myImages,
               sizeFix = {
                 small: 1,
-                medium: 355 / 237,
+                medium: 345 / 237,
                 large: 600 / 237
               };
             if (!options.width) {
@@ -1504,7 +1504,7 @@
                     break;
                   case "medium":
                     $.v.countPinMedium = $.v.countPinMedium + 1;
-                    imgWidth = "355x";
+                    imgWidth = "345x";
                     width = " medium";
                     widthMod = "_medium";
                     fontMod = .8;
@@ -4295,7 +4295,7 @@
       },
       "&._medium": {
         "min-width": "237px",
-        "max-width": "355px",
+        "max-width": "345px",
         "border-radius": "24px",
         "._pages": {
           "._page": {
